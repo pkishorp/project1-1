@@ -6,21 +6,21 @@ aggregproject1    (project root)
 ├── app
 │   ├── app
 │   │   ├── __init__.py
-│   │   ├── asgi.py
+│   │   ├── asgi.py  [project instantiation]
 │   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
+│   │   ├── urls.py [urls configurations]
+│   │   └── wsgi.py  [project instantiation]
 │   ├── core
 │   │   ├── __init__.py
-│   │   ├── admin.py
-│   │   ├── apps.py
+│   │   ├── admin.py [support admin gui]
+│   │   ├── apps.py []
 │   │   ├── management
 │   │   │   ├── __init__.py
 │   │   │   └── commands
-│   │   ├── migrations
+│   │   ├── migrations [track all db changes]
 │   │   │   └── __init__.py
-│   │   ├── models.py
-│   │   └── tests
+│   │   ├── models.py [db]
+│   │   └── tests  [unit testing]
 │   │       ├── __init__.py
 │   │       └── test_commands.py
 │   └── manage.py
